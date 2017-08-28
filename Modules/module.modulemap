@@ -1,0 +1,10 @@
+framework module iOSIntentSDK {
+  umbrella header "iOSIntentSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module iOSIntentSDK.Swift {
+    header "iOSIntentSDK-Swift.h"
+}
